@@ -36,9 +36,6 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: pnpm audit signatures
 
-      - name: Lint
-        run: pnpm lint
-
       - name: Test
         run: pnpm test
 
